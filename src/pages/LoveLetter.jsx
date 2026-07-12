@@ -2,46 +2,46 @@ import React, { useEffect, useRef, useState } from 'react'
 
 const LoveLetter = () => {
     const lettersData = [
-        {
-            id: 1,
-            name: "Rexon",
-            msg: "Wish you the happiest birthday",
-        },
-        {
-            id: 2,
-            name: "Rexon",
-            msg: "One picture from you can change my whole day, my whole mood, my whole heartbeat.",
-        },
-        {
-            id: 3,
-            name: "Rexon",
-            msg: "Even through screens and pixels, your laugh reaches me like sunlight through a window—warm, real, and impossible to forget.",
-        },
-        {
-            id: 4,
-            name: "Rexon",
-            msg: "Every notification from you feels like a heartbeat whispering, I’m here, and I love you.",
-        },
-        {
-            id: 5,
-            name: "Rexon",
-            msg: "Our messages might travel through wires, but every word you send lands straight in my heart.",
-        },
-        {
-            id: 6,
-            name: "Rexon",
-            msg: "Ever since our we met, my heart knew where it wanted to stay— with you, in every soft moment, every smile, every quiet piece of forever.",
-        },
-        {
-            id: 7,
-            name: "Rexon",
-            msg: " but you turned it into a memory my heart refuses to forget. Since then, every moment with you has felt softer, brighter, and filled with a kind of peace only you bring.",
-        },
-        {
-            id: 8,
-            name: "Rexon",
-            msg: "Since our first conversation, you’ve been the quiet spark that changed my world, turning ordinary days into moments that feel beautifully meant to be.",
-        },
+       {
+    id: 1,
+    name: "ইব্রাহিম",
+    msg: "এমনভাবে লিখব তোমার গল্প, যেন পড়ে কারও বুকের ভেতর নিঃশব্দে জমে ওঠে অজানা এক ব্যথা, আর চোখের কোণে নেমে আসে অপ্রকাশিত অশ্রু।",
+},
+{
+    id: 2,
+    name: "ইব্রাহিম",
+    msg: "মনে হবে, একটি সুন্দর ভালোবাসা শেষ পর্যন্ত পৌঁছানোর আগেই থেমে গেছে, অসমাপ্ত থেকে গেছে একটি স্বপ্নের সবচেয়ে সুন্দর অধ্যায়।",
+},
+{
+    id: 3,
+    name: "ইব্রাহিম",
+    msg: "মানুষ ভাববে, কে সেই ভাগ্যবান, যে এত গভীর ভালোবাসা পেয়েও তাকে নিজের করে রাখতে পারল না, আর এমন একজনকে হারিয়ে ফেলল।",
+},
+{
+    id: 4,
+    name: "ইব্রাহিম",
+    msg: "যে মানুষটি নিঃস্বার্থভাবে ভালোবেসেছিল, যার প্রতিটি ভাবনা আর প্রতিটি স্বপ্নের কেন্দ্রেই ছিল শুধু একজন, অথচ শেষ পর্যন্ত সে-ই হারিয়ে গেল।",
+},
+{
+    id: 5,
+    name: "ইব্রাহিম",
+    msg: "এই গল্পে শব্দের চেয়ে অনুভূতি বেশি—অপেক্ষা, না পাওয়ার কষ্ট, ভাঙা স্বপ্ন আর বুকের ভেতর চাপা পড়ে থাকা হাজারো না বলা কথা।",
+},
+{
+    id: 6,
+    name: "ইব্রাহিম",
+    msg: "তুমি ছিলে কারও জীবনের সবচেয়ে সুন্দর স্বপ্ন। আজ সেই স্বপ্ন শুধু ভাঙা স্মৃতির টুকরো হয়ে নীরবে রয়ে গেছে হৃদয়ের গভীরে।",
+},
+{
+    id: 7,
+    name: "ইব্রাহিম",
+    msg: "হয়তো কোনো একদিন কেউ এই গল্প পড়ে নিজের হারিয়ে যাওয়া মানুষটাকে মনে করবে, আর নিঃশব্দে চোখের জল মুছে দীর্ঘশ্বাস ফেলবে।",
+},
+{
+    id: 8,
+    name: "ইব্রাহিম",
+    msg: "তখন সবাই বুঝবে, কিছু ভালোবাসা শেষ হয়ে যায় না; মানুষ হারিয়ে যায়, কিন্তু তার রেখে যাওয়া অনুভূতিগুলো সারাজীবন হৃদয়ে বেঁচে থাকে। ❤️",
+},
     ];
     const [openEnvelope, setOpenEnvelope] = useState(false);
     const [letters, setLetters] = useState([]);
