@@ -19,6 +19,23 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- ব্যাকগ্রাউন্ড মিউজিক ট্যাগ (এটি লুপে চলবে) -->
+    <audio id="bg-music" loop>
+      <source src="/audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- মিউজিক অটো-প্লে করার স্ক্রিপ্ট -->
+    <script>
+      window.addEventListener('click', () => {
+        const music = document.getElementById('bg-music');
+        if (music.paused) {
+          music.play().catch(error => console.log("Autoplay blocked or failed:", error));
+        }
+      }, { once: true }); // 'once: true' দেওয়াতে প্রথম ক্লিকের পরই শুধু এটি কাজ করবে, বারবার ডিস্টার্ব করবে না।
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
   </body>
