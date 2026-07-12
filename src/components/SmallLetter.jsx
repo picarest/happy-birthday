@@ -77,9 +77,13 @@ const SmallLetter = () => {
             onClick={handleCloseLetter} // Attach the close handler
         >
             x
-        </div>
-        <p>Yo brocaccho,<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br /><br />Rajib</p>
-    </div>
+       </div>
+<p>
+    প্রিয় জাফরিন,<br /><br />
+    তোমার ২০তম জন্মদিনে রইল আন্তরিক শুভেচ্ছা। তোমার প্রতিটি দিন হাসি, শান্তি, ভালোবাসা আর সুন্দর স্মৃতিতে ভরে উঠুক। সব স্বপ্ন পূরণ হোক, আর জীবনের প্রতিটি পদক্ষেপ তোমাকে নিয়ে যাক আরও সুন্দর এক আগামীতে।<br /><br />
+    — ইব্রাহিম ❤️
+</p>
+</div>
 
     {/* --- NEW SVG DIARY PAGE DECORATION --- */}
     <svg className="rajib-diary-deco" viewBox="0 0 100 100" preserveAspectRatio="none">
