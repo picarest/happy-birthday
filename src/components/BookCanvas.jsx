@@ -17,7 +17,6 @@ const BookCanvas = ({ active, setActive }) => {
         }
     }, [])
 
-
     return (
         <div className={`boxMail ${active ? 'hidden opacity-0 pointer-events-none' : 'opacity-100 visible'}`}>
 
@@ -29,13 +28,13 @@ const BookCanvas = ({ active, setActive }) => {
                 <div className="card1">
                     <div className="cover-text-wrapper">
                         <h4 className="username">
-                            Dear Jafrin<span className="underline"></span>
+                            প্রিয় জাফরিন,❤️<span className="underline"></span>
                         </h4>
                         <h3 className="cover-title">
-                            🎉 শুভ জন্মদিন!
+                            Happy Birthday!
                         </h3>
                         <p className="cover-subtitle">
-                            A purr-fect message just for you... 💌
+                            শুধু তোমার জন্য... একটি চিঠি।💌
                         </p>
                     </div>
 
@@ -51,11 +50,11 @@ const BookCanvas = ({ active, setActive }) => {
                     <div className="card1-decoration-sparkle"></div>
 
                     <svg className="deco-shape top-right-star" viewBox="0 0 100 100">
-                        <polygon points="50,0 61,35 98,35 68,57 79,91 50,70 21,91 32,57 2,35 39,35" fill="rgba(255, 255, 255, 0.6)" /> {/* Slightly more opaque */}
+                        <polygon points="50,0 61,35 98,35 68,57 79,91 50,70 21,91 32,57 2,35 39,35" fill="rgba(255, 255, 255, 0.6)" />
                     </svg>
 
                     <svg className="deco-shape bottom-left-ring" viewBox="0 0 100 100">
-                        <circle cx="50" cy="50" r="45" stroke="rgba(255, 255, 255, 0.7)" strokeWidth="5" fill="none" /> {/* Slightly more opaque */}
+                        <circle cx="50" cy="50" r="45" stroke="rgba(255, 255, 255, 0.7)" strokeWidth="5" fill="none" />
                         <circle cx="50" cy="50" r="20" fill="rgba(255, 255, 255, 0.3)" />
                     </svg>
                 </div>
@@ -68,11 +67,18 @@ const BookCanvas = ({ active, setActive }) => {
 
                         {/* Swapping back to H2 to match the original CSS targeting */}
                         <div className="card2-message-text italic">
-                            <article style={{ marginBottom: '8px' }}>Happy Birthday, Jafrin ❤️</article>
-                            <article style={{ marginBottom: '10px' }}>From the moment we met, something in my life shifted—like the universe quietly guiding me toward someone meant for me.You brought warmth into the parts of me I didn’t even know were cold, And you expanded my days with a dimension I can only call my own.</article>
-                            <article style={{ marginBottom: '10px' }}>On your birthday, I just want you to know this: I want you with me in every chapter, every storm, every sunshine, every tomorrow. No matter what comes, I’ll be on your side—always. I’ll choose you, protect you, stand with you, and love you in ways that remind you you’re never alone.</article>
-                            <article style={{ marginBottom: '10px' }}>You’re not just another year older today… <br />
-                                you’re the reason my life feels softer, brighter, and endlessly worth living. Happy Birthday.</article>
+                            <article style={{ marginBottom: '8px' }}>🌸 শুভ জন্মদিন, জাফরিন</article>
+                            <article style={{ marginBottom: '10px' }}>
+                                তোমার সঙ্গে প্রথম দেখা হওয়ার পর থেকেই মনে হয়েছিল, আমার পৃথিবী যেন নীরবে বদলে যাচ্ছে। যেন ভাগ্য অদৃশ্য হাতে আমাকে এমন একজন মানুষের কাছে নিয়ে এসেছে, যার জন্যই এতদিন অপেক্ষা ছিল। তুমি আমার জীবনের সেই নিঃশব্দ শূন্যতাগুলোকে উষ্ণতায় ভরে দিয়েছ, যেগুলো যে এতদিন ফাঁকা ছিল, তা আমি নিজেও বুঝিনি। তোমার উপস্থিতি আমার প্রতিটি দিনকে নতুন অর্থ দিয়েছে, আর প্রতিটি মুহূর্তকে করে তুলেছে আরও সুন্দর।
+                            </article>
+
+                            <article style={{ marginBottom: '10px' }}>
+                                আজ তোমার জন্মদিনে শুধু একটি কথাই বলতে চাই—জীবনের প্রতিটি অধ্যায়ে আমি তোমার সঙ্গী হতে চাই। সুখের দিনে, কঠিন সময়ে, হাসির মুহূর্তে কিংবা চোখের জলে—সবখানেই তোমার পাশে থাকতে চাই। প্রতিটি সকালে তোমার হাসির কারণ হতে চাই, প্রতিটি সন্ধ্যায় তোমার ভরসার মানুষ হতে চাই। যত বাধাই আসুক, আমি বারবার তোমাকেই বেছে নেব। তোমাকে সম্মান করব, আগলে রাখব, আর এমনভাবে ভালোবাসব, যেন কোনো দিনও তোমার মনে না হয় তুমি একা।
+                            </article>
+
+                            <article style={{ marginBottom: '10px' }}>
+                                আজ তুমি শুধু আরেকটি বছর বড় হলে না; আজকের দিনটি সেই মানুষটির জন্মদিন, যে আমার জীবনকে আরও সুন্দর, আরও শান্ত আর আরও অর্থপূর্ণ করে তুলেছে। তোমার হাসি আমার সবচেয়ে প্রিয় দৃশ্য, আর তোমার সুখ আমার সবচেয়ে বড় প্রার্থনা। তোমার প্রতিটি স্বপ্ন পূরণ হোক, প্রতিটি দিন আনন্দে ভরে উঠুক। শুভ জন্মদিন, জাফরিন। ❤️
+                            </article>
                         </div>
 
                         <div className="card2-decoration"></div> {/* Decoration */}
@@ -91,7 +97,7 @@ const BookCanvas = ({ active, setActive }) => {
                         <div className="confetti-dots"></div>
 
                         <p className="signature">
-                            Your Best Friend, Rexon
+                            তোমার প্রিয় প্রাক্তন, ইব্রাহিম ❤️
                         </p>
                     </div>
                 </div>
